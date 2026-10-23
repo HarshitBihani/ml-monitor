@@ -1,0 +1,117 @@
+{
+  "training": {
+    "version": 1,
+    "algo": "hist_gradient_boosting",
+    "params": {
+      "learning_rate": 0.05,
+      "max_depth": 5,
+      "max_iter": 200
+    },
+    "val_auc": 0.7673545039936549,
+    "baseline_auc": 0.6646976353622986,
+    "trained_on": "2010-06-30 to 2010-10-31"
+  },
+  "timeline": [
+    {
+      "cutoff": "2010-11-30",
+      "version": 1,
+      "customers": 4239,
+      "alert_features": 1,
+      "matured_auc": null,
+      "trigger": "",
+      "outcome": "",
+      "latency_ms": 41.53
+    },
+    {
+      "cutoff": "2010-12-31",
+      "version": 1,
+      "customers": 4315,
+      "alert_features": 2,
+      "matured_auc": null,
+      "trigger": "",
+      "outcome": "",
+      "latency_ms": 41.1
+    },
+    {
+      "cutoff": "2011-01-31",
+      "version": 1,
+      "customers": 4387,
+      "alert_features": 2,
+      "matured_auc": null,
+      "trigger": "",
+      "outcome": "",
+      "latency_ms": 46.96
+    },
+    {
+      "cutoff": "2011-02-28",
+      "version": 1,
+      "customers": 4512,
+      "alert_features": 2,
+      "matured_auc": 0.7927685241858426,
+      "trigger": "",
+      "outcome": "",
+      "latency_ms": 45.11
+    },
+    {
+      "cutoff": "2011-03-31",
+      "version": 1,
+      "customers": 4691,
+      "alert_features": 2,
+      "matured_auc": 0.7884114005189815,
+      "trigger": "",
+      "outcome": "",
+      "latency_ms": 41.92
+    },
+    {
+      "cutoff": "2011-04-30",
+      "version": 1,
+      "customers": 4797,
+      "alert_features": 5,
+      "matured_auc": 0.7884114005189815,
+      "trigger": "5 features at alert-level drift",
+      "outcome": "kept champion (challenger 0.792 vs champion 0.788)",
+      "latency_ms": 47.06
+    },
+    {
+      "cutoff": "2011-05-31",
+      "version": 1,
+      "customers": 4908,
+      "alert_features": 5,
+      "matured_auc": 0.7730026868306499,
+      "trigger": "5 features at alert-level drift",
+      "outcome": "",
+      "latency_ms": 40.04
+    },
+    {
+      "cutoff": "2011-06-30",
+      "version": 1,
+      "customers": 5016,
+      "alert_features": 5,
+      "matured_auc": 0.7759723872147952,
+      "trigger": "5 features at alert-level drift",
+      "outcome": "",
+      "latency_ms": 43.21
+    },
+    {
+      "cutoff": "2011-07-31",
+      "version": 1,
+      "customers": 5117,
+      "alert_features": 5,
+      "matured_auc": 0.7876770537705274,
+      "trigger": "5 features at alert-level drift",
+      "outcome": "promoted v3 (AUC 0.807 vs champion 0.788)",
+      "latency_ms": 43.5
+    },
+    {
+      "cutoff": "2011-08-31",
+      "version": 3,
+      "customers": 5224,
+      "alert_features": 5,
+      "matured_auc": 0.7977976141148428,
+      "trigger": "5 features at alert-level drift",
+      "outcome": "",
+      "latency_ms": 51.29
+    }
+  ],
+  "seconds": 50.1
+}
